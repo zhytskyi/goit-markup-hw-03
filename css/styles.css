@@ -142,6 +142,9 @@ button {
 /* -------------------------*/
 /* ----------QUALITIES---------------*/
 .qual-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margin-bottom: 120px; */
 }
 
 .qual-list {
@@ -151,8 +154,8 @@ button {
   letter-spacing: 0.02em;
   color: #434455;
   /* max-width: 264px; */
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   margin-bottom: 120px;
 }
 
@@ -178,6 +181,8 @@ button {
 
 .team-sec {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .team-title {
@@ -188,8 +193,8 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  /* padding-top: 120px;
+  padding-bottom: 72px; */
 }
 
 .team-list {
@@ -229,6 +234,9 @@ button {
 /* ----------PORTFOLIO---------------*/
 
 .portf-sec {
+  padding-top: 120px;
+  padding-bottom: 72px;
+  margin: 0 auto;
 }
 
 .portf-main-title {
@@ -239,9 +247,9 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+  /* padding-top: 120px;
   padding-bottom: 72px;
-  margin: 0 auto;
+  margin: 0 auto; */
 }
 
 .portf-list {
