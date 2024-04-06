@@ -55,8 +55,7 @@ button {
 
 /* ------- Header------------------*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -88,7 +87,6 @@ button {
 .nav-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 .nav-link {
   color: #2e2f42;
@@ -162,8 +160,7 @@ button {
 /* -------------------------*/
 /* ----------QUALITIES---------------*/
 .qual-section {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 120px 0;
 }
 
 .qual-list {
@@ -200,8 +197,11 @@ button {
 
 .team-sec {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding: bottom 120px;
+  padding: 120px 0;
+}
+
+.team-sec div {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -261,8 +261,7 @@ button {
 /* ----------PORTFOLIO---------------*/
 
 .portf-sec {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  padding: 120px 0 120px 0;
   margin: 0 auto;
 }
 
@@ -287,10 +286,15 @@ button {
 }
 
 .portf-item {
-  width: calc((100% - 2 * 24px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .team-img {
   margin-bottom: 32px;
+}
+.portf-text-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portf-title {
