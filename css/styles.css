@@ -20,7 +20,9 @@ ul {
   margin-bottom: 0;
   padding-left: 0;
 }
-
+img {
+  display: block;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -56,11 +58,17 @@ button {
   padding-top: 24px;
   padding-bottom: 24px;
 }
+
+.header-container {
+  display: flex;
+}
+
 .header-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -75,6 +83,9 @@ button {
   color: #2e2f42;
 }
 .nav-list {
+  display: flex;
+  gap: 40px;
+  margin-left: 76px;
 }
 .nav-link {
   color: #2e2f42;
@@ -85,8 +96,11 @@ button {
   color: #404bbf;
 }
 .nav-cont {
+  margin-left: auto;
 }
 .nav-cont-list {
+  display: flex;
+  gap: 40px;
 }
 .nav-cont-item {
   font-weight: 400;
@@ -144,7 +158,6 @@ button {
 .qual-section {
   padding-left: 15px;
   padding-right: 15px;
-  /* margin-bottom: 120px; */
 }
 
 .qual-list {
@@ -153,14 +166,13 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* max-width: 264px; */
-  /* padding-left: 15px;
-  padding-right: 15px; */
   margin-bottom: 120px;
+  display: flex;
+  gap: 24px;
 }
 
 .qual-item {
-  max-width: 264px;
+  width: calc((100% - 3 * 24px) / 4);
   margin: 0 auto;
 }
 
@@ -193,12 +205,14 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  /* padding-top: 120px;
-  padding-bottom: 72px; */
+  margin-bottom: 72px;
 }
 
 .team-list {
   padding-bottom: 120px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
 }
 .team-item {
   background: #ffffff;
@@ -247,18 +261,23 @@ button {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  /* padding-top: 120px;
-  padding-bottom: 72px;
-  margin: 0 auto; */
+  margin-bottom: 72px;
 }
 
 .portf-list {
   padding-bottom: 120px;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 
 .portf-item {
+  width: calc((100% - 2 * 24px) / 3);
+}
+.team-img {
+  margin-bottom: 32px;
 }
 
 .portf-title {
@@ -267,6 +286,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-left: 16px;
   margin-bottom: 8px;
   margin-top: 32px;
 }
@@ -289,6 +309,8 @@ button {
 }
 
 .logo {
+  display: block;
+  padding-bottom: 24px;
 }
 
 .footer-page span {
