@@ -167,8 +167,12 @@ button {
 
 /* -------------------------*/
 /* ----------QUALITIES---------------*/
-.qual-container {
+.qual-sec {
   padding: 120px 0;
+}
+
+.qual-container {
+  /* padding: 120px 0; */
 }
 
 .qual-list {
