@@ -209,6 +209,10 @@ button {
   padding: 120px 0;
 }
 
+.team-sec div {
+  padding: 32px 0;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
